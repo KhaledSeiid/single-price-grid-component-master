@@ -52,7 +52,6 @@ body {
     background-color: hsl(179, 62%, 43%);
     color: white;
     border-bottom-left-radius: 10px;
-    text-align: center;
 }
 .subscription span:first-of-type {
     font-size: 32px;
@@ -64,7 +63,7 @@ body {
     margin: 20px 0;
 }
 .subscription button {
-    width: 205px;
+    width: 100%;
     height: 44px;
     border-radius: 8px;
     font-weight: bold;
