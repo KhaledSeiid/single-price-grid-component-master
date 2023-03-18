@@ -1,0 +1,117 @@
+@media (min-width: 768px) {
+    .container {
+        width: 500px;
+    }
+}
+  /* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 700px;
+    }
+    }
+  /* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+}
+body {
+    background-color: aliceblue
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px 2px #b0ddf4a6;
+}
+.container div {
+    padding: 32px;
+    box-sizing: border-box;
+}
+.join-community {
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
+.join-community h1{
+    color: hsl(179, 62%, 43%);
+}
+.join-community h2 {
+    color: hsl(71, 73%, 54%);
+}
+.join-community p {
+    color: #afafaf;
+}
+.subscription {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+.subscription span:first-of-type {
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.subscription span:last-of-type {
+    display: block;
+    margin: 20px 0;
+}
+.subscription button {
+    width: 205px;
+    height: 44px;
+    border-radius: 8px;
+    font-weight: bold;
+    border:none;
+    background-color: hsl(71, 73%, 54%);
+}
+.why-us {
+    width: 50%;
+    background-color: hsl(179deg 50.93% 55.85%);
+    color: white;
+    border-bottom-right-radius: 10px;
+}
+@media (max-width: 991px) {
+    .why-us p {
+        max-width: 200px;
+    }
+    }
+    @media (max-width: 1199px) {
+        .why-us p {
+            max-width: 300px;
+        }
+    }
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .subscription {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0px;
+    }
+    .why-us {
+        width: 100%;
+        text-align: center;
+        border-bottom-left-radius: 10px;
+    }
+    .why-us p {
+        max-width: 100%;
+    }
+    body {
+        min-height: 984px;
+    }
+    .subscription span:first-of-type  {
+        margin: 0;
+    }
+}
